@@ -3,7 +3,7 @@ from deep_translator import GoogleTranslator
 import speech_recognition as sr
 import tempfile
 
-st.set_page_config(page_title="Voice + Text Translator", page_icon="🌍")
+st.set_page_config(page_title="Voice + Text Translator", page_icon="🤗")
 
 st.markdown(
     """
@@ -42,8 +42,9 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+st.title("🤗Free For All🤗 ")
 
-st.title("🌍 Voice + Text Translator")
+st.title("🤗 Voice + Text Translator🤗")
 
 languages = {
     "English": "en",
